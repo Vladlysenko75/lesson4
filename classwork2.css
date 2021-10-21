@@ -1,3 +1,22 @@
+.grandfather {
+    width: 900px;
+    height: 3000px;
+    background-color: greenyellow;
+}
+
+.header {
+    width: 900px;
+    height: 80px;
+}
+
+.podheader {
+    width: 900px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .father {
     width: 900px;
     height: 630px;
@@ -5,6 +24,9 @@
 
 .deepskyblue {
     background-color: deepskyblue;
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
 
 .midnightblue {
@@ -13,6 +35,140 @@
 
 .lightblue {
     background-color: lightblue;
+}
+
+.header_text1 {
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header_text2 {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.small_rectangle {
+    width: 100px;
+    height: 60px;
+    margin-left: 120px;
+}
+
+.big_rectangle {
+    width: 900px;
+    height: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.six_blocks {
+    width: 750px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.block {
+    height: 250px;
+    width: 150px;
+    margin: 20px;
+}
+
+.block_a {
+    height: 200px;
+    width: 150px;
+    border-bottom: 5px solid deepskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.block_b {
+    width: 150px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+
+.screen {
+    width: 140px;
+    height: 100px;
+}
+
+.pult {
+    height: 90px;
+    width: 150px;
+}
+
+.power {
+    width: 150px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vkl {
+    width: 40px;
+    height: 10px;
+}
+
+.direction {
+    width: 35px;
+    height: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.direction2 {
+    width: 50px;
+    height: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.vlevo {
+    width: 16px;
+    height: 10px;
+}
+
+.intro {
+    width: 900px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro_text {
+    width: 400px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h5 {
+    color: deepskyblue;
+    text-align: center;
+}
+
+h4 {
+    color: deepskyblue;
+}
+
+h3 {
+    color: deepskyblue;
+}
+
+h1 {
+    color: deepskyblue;
 }
 
 .raz {
