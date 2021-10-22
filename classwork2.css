@@ -1,6 +1,6 @@
 .grandfather {
     width: 900px;
-    height: 3000px;
+    height: 2600px;
     background-color: greenyellow;
 }
 
@@ -22,11 +22,23 @@
     height: 630px;
 }
 
+.deepskyblue_text {
+    color: deepskyblue;
+}
+
+.midnightblue_text{
+    color: midnightblue;
+}
+
 .deepskyblue {
     background-color: deepskyblue;
     display: flex;
     justify-content: end;
     align-items: center;
+}
+
+.deepskyblue_color {
+    background-color: deepskyblue;
 }
 
 .midnightblue {
@@ -154,20 +166,30 @@
     flex-wrap: wrap;
 }
 
+.reverse_blocks {
+    width: 570px;
+    height: 300px;
+    display: flex;
+}
+
+.reverse_block1 {
+    width: 285px;
+    height: 300px;
+}
+
+.reverse_margin_left {
+    margin-left: 15px;
+}
+
+.reverse_margin_top {
+    margin-top: 70px;
+}
+
 h5 {
-    color: deepskyblue;
     text-align: center;
 }
 
-h4 {
-    color: deepskyblue;
-}
-
-h3 {
-    color: deepskyblue;
-}
-
-h1 {
+h1, h3, h4, h5 {
     color: deepskyblue;
 }
 
@@ -313,4 +335,37 @@ h1 {
     background-color: lightblue;
     margin-left: 3px;
     margin-right: 3px;
+}
+
+.footer {
+    width: 900px;
+    height: 200px;
+}
+
+.footer_blocks {
+    width: 900px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.footer_block {
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.footerline {
+    width: 900px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    width: 400px;
+    height: 3px;
 }
