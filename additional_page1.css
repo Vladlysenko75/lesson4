@@ -1,0 +1,152 @@
+.radius {
+    border-radius: 15px;
+}
+
+.lightblue {
+    background-color: lightblue;
+}
+
+.darkblue {
+    background-color: midnightblue;
+}
+
+.purple {
+    background-color: rebeccapurple;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_rectangle {
+    width: 80px;
+    height: 30px;
+    margin-left: 5%;
+}
+
+.images {
+    display: flex;
+    margin-right: 5%;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+h5 {
+    text-align: center;
+}
+
+.podheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.intro_text {
+    width: 350px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20%;
+    margin-top: 10%;
+}
+
+.cherti {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.absolut_blocks {
+    display: flex;
+    position: absolute;
+    top: -50px;
+}
+
+.absolut_block {
+    width: 100px;
+    height: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.golub {
+    width: 80%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pustoi {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.otstup {
+    display: flex;
+    margin-top: 5px;
+}
+
+.kvadropolos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.poloski {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.dovga {
+    width: 50px;
+    height: 10px;
+}
+
+.korotka {
+    width: 30px;
+    height: 10px;
+}
+
+.kvadraty {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.kvadrat {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
