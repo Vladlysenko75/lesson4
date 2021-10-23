@@ -1,0 +1,30 @@
+@media screen and (max-width: 375px){
+    .small_rectangle{
+    display: none;
+    }
+    .intro_text {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .golub {
+        height: 600px;
+    }
+    .raz {
+        height: 900px;
+    }
+    .dva {
+        flex-direction: column;
+    }
+    .kvadraty {
+        flex-direction: column;
+        align-items: center;
+        height: 80%;
+        width: 80%;
+    }
+    .pustoi2 {
+        display: none;
+    }
+    .reverse_blocks {
+        flex-direction: column;
+    }
+}

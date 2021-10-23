@@ -1,25 +1,16 @@
-.grandfather {
-    width: 900px;
-    height: 2600px;
-    background-color: greenyellow;
+.wide {
+    width: 100%;
 }
 
 .header {
-    width: 900px;
     height: 80px;
 }
 
 .podheader {
-    width: 900px;
     height: 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.father {
-    width: 900px;
-    height: 630px;
 }
 
 .deepskyblue_text {
@@ -64,20 +55,18 @@
 .small_rectangle {
     width: 100px;
     height: 60px;
-    margin-left: 120px;
+    margin-left: 5%;
 }
 
 .big_rectangle {
-    width: 900px;
-    height: 1200px;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
 }
 
 .six_blocks {
-    width: 750px;
-    height: 600px;
+    width: 55%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -150,7 +139,6 @@
 }
 
 .intro {
-    width: 900px;
     height: 400px;
     display: flex;
     justify-content: center;
@@ -167,9 +155,9 @@
 }
 
 .reverse_blocks {
-    width: 570px;
-    height: 300px;
     display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .reverse_block1 {
@@ -194,7 +182,6 @@ h1, h3, h4, h5 {
 }
 
 .raz {
-    width: 900px;
     height: 300px;
     display: flex;
     justify-content: center;
@@ -202,8 +189,6 @@ h1, h3, h4, h5 {
 }
 
 .dva {
-    height: 300px;
-    width: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -211,17 +196,18 @@ h1, h3, h4, h5 {
 
 .golub {
     height: 250px;
-    width: 850px;
+    width: 80%;
     border: 5px solid deepskyblue;
     border-radius: 40px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
 .pustoi {
     height: 80px;
-    width: 780px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -283,6 +269,8 @@ h1, h3, h4, h5 {
 .krugi {
     width: 200px;
     height: 250px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .border {
@@ -338,12 +326,10 @@ h1, h3, h4, h5 {
 }
 
 .footer {
-    width: 900px;
     height: 200px;
 }
 
 .footer_blocks {
-    width: 900px;
     height: 100px;
     display: flex;
     justify-content: center;
@@ -358,7 +344,6 @@ h1, h3, h4, h5 {
 }
 
 .footerline {
-    width: 900px;
     height: 100px;
     display: flex;
     justify-content: center;
@@ -366,6 +351,6 @@ h1, h3, h4, h5 {
 }
 
 .line {
-    width: 400px;
+    width: 35%;
     height: 3px;
 }
