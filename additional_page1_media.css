@@ -1,0 +1,13 @@
+@media screen and (max-width: 375px) {
+    .three_photos {
+        flex-direction: column;
+    }
+
+    .arrow-left, .arrow-right {
+        display: none;
+    }
+
+    .owner_text {
+        max-width: 200px;
+    }
+}

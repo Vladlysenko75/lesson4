@@ -1,0 +1,297 @@
+header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.radius {
+    border-radius: 15px;
+}
+
+.lightblue {
+    background-color: lightblue;
+}
+
+.darkblue {
+    background-color: midnightblue;
+}
+
+.darkblue_color {
+    color: midnightblue;
+}
+
+.purple {
+    background-color: rebeccapurple;
+}
+
+.header_rectangle {
+    width: 110px;
+    height: 50px;
+    margin-left: 10%;
+}
+
+.header_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    margin-right: 10%;
+}
+
+.podheader {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+.intro_text {
+    width: 350px;
+    height: 250px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.main {
+    display: flex;
+}
+
+.podmain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pustoi {
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.scroller {
+    margin-left: 10%;
+}
+
+.poloski {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dovga {
+    width: 50px;
+    height: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.korotka {
+    width: 30px;
+    height: 10px;
+}
+
+.review_photo {
+    width: 340px;
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.roller {
+    display: flex;
+    align-items: center;
+    margin-left: 9%;
+}
+
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid midnightblue;
+}
+
+.arrow-left {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right:15px solid midnightblue;
+}
+
+.footer_block {
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.identification {
+    margin-left: 10%;
+}
+
+.passport {
+    display: flex;
+}
+
+.passport_photo {
+    height: 112px;
+    width: 112px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.passport_text h4, .passport_text p {
+    max-width: 200px;
+    margin-left: 10px;
+}
+
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.passport_text2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rectangles {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+}
+
+.rectangle.purple {
+    height: 150px;
+    width: 400px;
+}
+
+.rectangle.darkblue {
+    height: 150px;
+    width: 250px;
+}
+
+.rectangle.purple, .rectangle.darkblue {
+    margin: 7px;
+}
+
+.krugi {
+    width: 200px;
+    height: 250px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.krugbox {
+    width: 200px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.krug {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: purple;
+}
+
+.text {
+    height: 40px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.povorot {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.textbox {
+    width: 200px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.poloski2 {
+    width: 40px;
+    height: 10px;
+    background-color: purple;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.poloski3 {
+    width: 25px;
+    height: 10px;
+    background-color: purple;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.footer {
+    height: 200px;
+    display: flex;
+}
+
+.footer_blocks_text {
+    margin-left: 10%;
+}
+
+.footer_block {
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.footer_blocks {
+    height: 100px;
+    display: flex;
+    margin-left: 10%;
+    padding-top: 5%;
+    margin-bottom: 25px;
+}
+
+.footer_line {
+    display: flex;
+    margin-left: 9.5%;
+}
+
+.line {
+    width: 50px;
+    height: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.footer_review {
+    display: flex;
+    margin-top: 2%;
+    margin-left: 15%;
+}
+
+.review {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.review .korotka {
+    margin-left: 6%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
